@@ -19,12 +19,32 @@ header {
     background-position-y: top;
 }
 
-.container {
-    max-width: 1140px;
-    padding: 0 20px;
-    margin: 0 auto;
+h2 {
+    font-family: "Montserrat", serif;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
+h3 {
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+}
+
+h5 {
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+}
+
+.subtitle {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+span {
+    font-family: "Merriweather", serif;
+    font-size: 12px;
+}
 
 /* Navigation */
 .navigation {
@@ -54,7 +74,7 @@ header {
 /* Splash */
 
 .splash-inner {
-    padding-top: 140px;
+    padding-top: 80px;
     margin: auto;
     max-width: 70%;
     color: white;
@@ -92,18 +112,46 @@ header {
 .services {
     padding-top: 96px;
     padding-bottom: 96px;
-    text-align: center;
+    max-width: 1000px;
+    display: inline-block;
 } 
 
+.text {
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+    color: #777777;
+}
+
+.services i {
+    font-size: 35px;
+    border: 3px solid;
+    width: 66px;
+    height: 66px;
+    line-height: 60px;
+    color: #FED136;
+    border-radius: 50%;
+}
 
 /* Portfolio */
 .portfolio {
-    background-color: #f7f7f7;
+    background-color: white;
     padding-top: 96px;
     padding-bottom: 96px;
-    text-align: center;
 }
 
+.portfolio-inner {
+    position: relative;
+    text-align: center;
+    max-width: 1000px;
+    display: inline-block;
+}
+
+.card-body {
+    background-color: white;
+    max-width: 288px;
+    padding-top: 20px;
+    text-align: center;
+}
 
 /* Footer */
 .page-footer {
@@ -111,6 +159,7 @@ header {
     color: black;
     font-size: 20px;
 }
+
 
 .page-footer ul {
     padding: 0;
